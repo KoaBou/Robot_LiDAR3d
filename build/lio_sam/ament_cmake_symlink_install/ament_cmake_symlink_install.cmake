@@ -311,52 +311,52 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/lio_sam" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/lio_sam" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/lio_sam" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/lio_sam/environment")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
 
 # install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
 include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
 
 # install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
 include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/msg/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/msg" "PATTERN" "*.py")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/msg/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/msg" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/msg/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/msg" "PATTERN" "*.py")
 
 # install(DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/srv/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/srv" "PATTERN" "*.py")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/srv/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/srv" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/srv/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/srv" "PATTERN" "*.py")
 
 # install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
 include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
@@ -371,28 +371,28 @@ include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink
 include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_adapter/lio_sam/msg/CloudInfo.idl" "DESTINATION" "share/lio_sam/msg")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_adapter/lio_sam/msg/CloudInfo.idl" "DESTINATION" "share/lio_sam/msg")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_adapter/lio_sam/msg/CloudInfo.idl" "DESTINATION" "share/lio_sam/msg")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_adapter/lio_sam/srv/SaveMap.idl" "DESTINATION" "share/lio_sam/srv")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_adapter/lio_sam/srv/SaveMap.idl" "DESTINATION" "share/lio_sam/srv")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_adapter/lio_sam/srv/SaveMap.idl" "DESTINATION" "share/lio_sam/srv")
 
-# install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/msg/CloudInfo.msg" "DESTINATION" "share/lio_sam/msg")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/msg/CloudInfo.msg" "DESTINATION" "share/lio_sam/msg")
+# install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/msg/CloudInfo.msg" "DESTINATION" "share/lio_sam/msg")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/msg/CloudInfo.msg" "DESTINATION" "share/lio_sam/msg")
 
-# install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/srv/SaveMap.srv" "DESTINATION" "share/lio_sam/srv")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/srv/SaveMap.srv" "DESTINATION" "share/lio_sam/srv")
+# install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/srv/SaveMap.srv" "DESTINATION" "share/lio_sam/srv")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/srv/SaveMap.srv" "DESTINATION" "share/lio_sam/srv")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/srv/SaveMap_Request.msg" "DESTINATION" "share/lio_sam/srv")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/srv/SaveMap_Request.msg" "DESTINATION" "share/lio_sam/srv")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/srv/SaveMap_Request.msg" "DESTINATION" "share/lio_sam/srv")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/srv/SaveMap_Response.msg" "DESTINATION" "share/lio_sam/srv")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/srv/SaveMap_Response.msg" "DESTINATION" "share/lio_sam/srv")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/srv/SaveMap_Response.msg" "DESTINATION" "share/lio_sam/srv")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/lio_sam/")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "launch" "DESTINATION" "share/lio_sam/")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "launch" "DESTINATION" "share/lio_sam/")
 
 # install(DIRECTORY "config" "DESTINATION" "share/lio_sam/")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "config" "DESTINATION" "share/lio_sam/")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "config" "DESTINATION" "share/lio_sam/")
 
 # install("TARGETS" "lio_sam_imageProjection" "DESTINATION" "lib/lio_sam")
 include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink_install_targets_6_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
@@ -407,67 +407,67 @@ include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink
 include("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_symlink_install_targets_9_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" DIRECTORY "include/" "DESTINATION" "include")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lio_sam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lio_sam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lio_sam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lio_sam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lio_sam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lio_sam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lio_sam")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lio_sam")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lio_sam")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lio_sam")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lio_sam")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/packages/lio_sam" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/packages/lio_sam" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/packages/lio_sam" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
 
 # install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_core/lio_samConfig.cmake" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_core/lio_samConfig-version.cmake" "DESTINATION" "share/lio_sam/cmake")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_core/lio_samConfig.cmake" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_core/lio_samConfig-version.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_core/lio_samConfig.cmake" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/ament_cmake_core/lio_samConfig-version.cmake" "DESTINATION" "share/lio_sam/cmake")
 
-# install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/package.xml" "DESTINATION" "share/lio_sam")
-ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/package.xml" "DESTINATION" "share/lio_sam")
+# install(FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/package.xml" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM" FILES "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/package.xml" "DESTINATION" "share/lio_sam")

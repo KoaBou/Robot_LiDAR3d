@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/include/lio_sam/utility.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/include/lio_sam/utility.hpp
 iostream
 -
 rclcpp/rclcpp.hpp
@@ -104,13 +104,13 @@ thread
 mutex
 -
 
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/mapOptmization.cpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/mapOptmization.cpp
 utility.hpp
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/utility.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/utility.hpp
 lio_sam/msg/cloud_info.hpp
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/lio_sam/msg/cloud_info.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/lio_sam/msg/cloud_info.hpp
 lio_sam/srv/save_map.hpp
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/lio_sam/srv/save_map.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/lio_sam/srv/save_map.hpp
 gtsam/geometry/Rot3.h
 -
 gtsam/geometry/Pose3.h

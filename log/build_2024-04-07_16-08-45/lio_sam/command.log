@@ -1,0 +1,1 @@
+Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam

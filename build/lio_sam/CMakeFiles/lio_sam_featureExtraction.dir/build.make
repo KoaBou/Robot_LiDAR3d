@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam
+CMAKE_SOURCE_DIR = /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam
@@ -58,17 +58,17 @@ include CMakeFiles/lio_sam_featureExtraction.dir/progress.make
 include CMakeFiles/lio_sam_featureExtraction.dir/flags.make
 
 CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o: CMakeFiles/lio_sam_featureExtraction.dir/flags.make
-CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/featureExtraction.cpp
+CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/featureExtraction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o -c /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/featureExtraction.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o -c /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/featureExtraction.cpp
 
 CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/featureExtraction.cpp > CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/featureExtraction.cpp > CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.i
 
 CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/featureExtraction.cpp -o CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/featureExtraction.cpp -o CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.s
 
 # Object files for target lio_sam_featureExtraction
 lio_sam_featureExtraction_OBJECTS = \
@@ -344,6 +344,6 @@ CMakeFiles/lio_sam_featureExtraction.dir/clean:
 .PHONY : CMakeFiles/lio_sam_featureExtraction.dir/clean
 
 CMakeFiles/lio_sam_featureExtraction.dir/depend:
-	cd /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/lio_sam_featureExtraction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/lio_sam_featureExtraction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lio_sam_featureExtraction.dir/depend
 

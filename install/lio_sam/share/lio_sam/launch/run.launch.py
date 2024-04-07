@@ -1,1 +1,1 @@
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/launch/run.launch.py
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/launch/run.launch.py

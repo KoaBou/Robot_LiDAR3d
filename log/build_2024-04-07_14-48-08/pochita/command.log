@@ -1,0 +1,4 @@
+Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita -- -j12 -l12
+Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita -- -j12 -l12
+Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
+Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita

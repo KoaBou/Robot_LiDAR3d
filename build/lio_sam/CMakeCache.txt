@@ -125,7 +125,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -799,7 +799,7 @@ libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 lio_sam_BINARY_DIR:STATIC=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam
 
 //Value Computed by CMake
-lio_sam_SOURCE_DIR:STATIC=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam
+lio_sam_SOURCE_DIR:STATIC=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM
 
 //Dependencies for the target
 lio_sam__python_LIB_DEPENDS:STATIC=general;lio_sam__rosidl_generator_c;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;lio_sam__rosidl_typesupport_c;general;/opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so;general;/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so;general;/opt/ros/foxy/share/sensor_msgs/cmake/../../../lib/libsensor_msgs__python.so;general;/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so;
@@ -1157,7 +1157,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -1235,11 +1235,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/foxy/include][/opt/ros/
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v4.2.0()]
 //Details about finding OpenMP
-FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v4.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v()]
 //Details about finding OpenMP_C
-FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C:INTERNAL=[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v4.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C:INTERNAL=[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v()]
 //Details about finding OpenMP_CXX
-FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX:INTERNAL=[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v4.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX:INTERNAL=[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v()]
 //Details about finding OpenNI
 FIND_PACKAGE_MESSAGE_DETAILS_OpenNI:INTERNAL=[/usr/lib/libOpenNI.so][/usr/include/ni][v()]
 //Details about finding OpenNI2

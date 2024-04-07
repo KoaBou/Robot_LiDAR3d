@@ -1,0 +1,1 @@
+Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lidarslam_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/lidarslam_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lidarslam_msgs

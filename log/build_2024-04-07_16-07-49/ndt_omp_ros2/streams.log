@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/Thirdparty/ndt_omp_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/ndt_omp_ros2
+[0.053s] -- The C compiler identification is GNU 9.4.0
+[0.091s] -- The CXX compiler identification is GNU 9.4.0
+[0.094s] -- Check for working C compiler: /usr/bin/cc
+[0.137s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.138s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.251s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.341s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.341s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.498s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.590s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.617s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.716s] -- Looking for pthread.h
+[0.770s] -- Looking for pthread.h - found
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.825s] -- Looking for pthread_create in pthreads
+[0.872s] -- Looking for pthread_create in pthreads - not found
+[0.872s] -- Looking for pthread_create in pthread
+[0.933s] -- Looking for pthread_create in pthread - found
+[0.934s] -- Found Threads: TRUE  
+[1.067s] CMake Error at CMakeLists.txt:23 (find_package):
+[1.067s]   Could not find a configuration file for package "PCL" that is compatible
+[1.067s]   with requested version "1.12".
+[1.067s] 
+[1.067s]   The following configuration files were considered but not accepted:
+[1.067s] 
+[1.067s]     /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake, version: 1.10.0
+[1.067s]     /lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake, version: 1.10.0
+[1.067s] 
+[1.067s] 
+[1.067s] 
+[1.068s] -- Configuring incomplete, errors occurred!
+[1.068s] See also "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2/CMakeFiles/CMakeOutput.log".
+[1.068s] See also "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2/CMakeFiles/CMakeError.log".
+[1.076s] Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/Thirdparty/ndt_omp_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/ndt_omp_ros2

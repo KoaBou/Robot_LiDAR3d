@@ -60,6 +60,10 @@
                 </noise>
             </ray>
             <plugin name="velodyne" filename="libgazebo_ros_velodyne_laser.so">
+                <ros>
+                    <namespace>/sensor</namespace>
+                    <remapping>~/out:=velodyne</remapping>
+                  </ros>
                 <gaussianNoise>0.00</gaussianNoise>
                 <hokuyoMinIntensity>1</hokuyoMinIntensity>
                 <alwaysOn>true</alwaysOn>

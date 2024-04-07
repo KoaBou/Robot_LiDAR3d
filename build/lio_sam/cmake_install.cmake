@@ -1,4 +1,4 @@
-# Install script for directory: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam
+# Install script for directory: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,7 @@
+{
+  "package_name": "lidarslam_msgs",
+  "non_idl_tuples": [
+    "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/lidarslam_msgs:msg/SubMap.msg",
+    "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/lidarslam_msgs:msg/MapArray.msg"
+  ]
+}

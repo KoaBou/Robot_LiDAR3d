@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000156] (pochita) JobQueued: {'identifier': 'pochita', 'dependencies': OrderedDict()}
+[0.000179] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.006645] (pochita) JobStarted: {'identifier': 'pochita'}
+[0.010550] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.010793] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam'], 'cwd': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam', 'env': OrderedDict([('USER', 'ngin'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ngin'), ('OLDPWD', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/ngin/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1414'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install'), ('LOGNAME', 'ngin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:40555'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'ngin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ngin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ngin-Nitro-AN515-45:@/tmp/.ICE-unix/1614,unix/ngin-Nitro-AN515-45:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', '15cec9d626c543609936c96ab1d8a80a'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61eca2df_f39d_43fa_8140_c9771928da42'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.76'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ngin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'vi_VN'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita:/opt/ros/foxy')]), 'shell': False}
+[0.015001] (pochita) JobProgress: {'identifier': 'pochita', 'progress': 'cmake'}
+[0.015408] (pochita) JobProgress: {'identifier': 'pochita', 'progress': 'build'}
+[0.016606] (pochita) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita', '--', '-j12', '-l12'], 'cwd': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita', 'env': OrderedDict([('USER', 'ngin'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ngin'), ('OLDPWD', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/ngin/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1414'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install'), ('LOGNAME', 'ngin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:40555'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'ngin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ngin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ngin-Nitro-AN515-45:@/tmp/.ICE-unix/1614,unix/ngin-Nitro-AN515-45:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', '15cec9d626c543609936c96ab1d8a80a'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61eca2df_f39d_43fa_8140_c9771928da42'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.76'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ngin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'vi_VN'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita:/opt/ros/foxy')]), 'shell': False}
+[0.050673] (pochita) CommandEnded: {'returncode': 0}
+[0.066529] (pochita) JobProgress: {'identifier': 'pochita', 'progress': 'install'}
+[0.078647] (pochita) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita'], 'cwd': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita', 'env': OrderedDict([('USER', 'ngin'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ngin'), ('OLDPWD', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/ngin/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1414'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install'), ('LOGNAME', 'ngin'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:40555'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'ngin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ngin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ngin-Nitro-AN515-45:@/tmp/.ICE-unix/1614,unix/ngin-Nitro-AN515-45:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', '15cec9d626c543609936c96ab1d8a80a'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61eca2df_f39d_43fa_8140_c9771928da42'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'vi_VN'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.76'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ngin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'vi_VN'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita:/opt/ros/foxy')]), 'shell': False}
+[0.084618] (pochita) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.084951] (pochita) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.085325] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/config.rviz\n'}
+[0.085439] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/ekf.yaml\n'}
+[0.085532] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/empty.yaml\n'}
+[0.085629] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/joystick.yaml\n'}
+[0.085729] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/mapper_params_online_async.yaml\n'}
+[0.085989] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/camera.xacro\n'}
+[0.086098] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/gazebo_control.xacro\n'}
+[0.086189] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/imu.xacro\n'}
+[0.086289] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/inertial_macros.xacro\n'}
+[0.086387] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/lidar.xacro\n'}
+[0.086489] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/materials.xacro\n'}
+[0.086587] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/robot.urdf.xacro\n'}
+[0.086685] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/robot_core.xacro\n'}
+[0.086783] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/velodyne.xacro\n'}
+[0.087017] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/full_launch.launch.py\n'}
+[0.087111] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/joystick.launch.py\n'}
+[0.087210] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/launch_sim.launch.py\n'}
+[0.087306] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/rsp.launch.py\n'}
+[0.087541] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/House/house.sdf\n'}
+[0.087639] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/House/model.config\n'}
+[0.087737] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/empty.world\n'}
+[0.087835] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/house.sdf\n'}
+[0.087933] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/obstacles.world\n'}
+[0.088118] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/package_run_dependencies/pochita\n'}
+[0.088288] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/parent_prefix_path/pochita\n'}
+[0.088503] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/ament_prefix_path.sh\n'}
+[0.088674] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/ament_prefix_path.dsv\n'}
+[0.088833] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/path.sh\n'}
+[0.088994] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/path.dsv\n'}
+[0.089149] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.bash\n'}
+[0.089304] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.sh\n'}
+[0.089457] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.zsh\n'}
+[0.089609] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.dsv\n'}
+[0.089734] (pochita) StdoutLine: {'line': b'-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.dsv\n'}
+[0.097204] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/packages/pochita\n'}
+[0.097390] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/cmake/pochitaConfig.cmake\n'}
+[0.097518] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/cmake/pochitaConfig-version.cmake\n'}
+[0.097715] (pochita) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.xml\n'}
+[0.098855] (pochita) CommandEnded: {'returncode': 0}
+[0.099375] (-) TimerEvent: {}
+[0.108865] (lio_sam) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.136818] (pochita) JobEnded: {'identifier': 'pochita', 'rc': 0}
+[0.199830] (-) TimerEvent: {}
+[0.200996] (lio_sam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.210442] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.282984] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.284275] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300462] (-) TimerEvent: {}
+[0.361327] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.371639] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.372180] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.374869] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400586] (-) TimerEvent: {}
+[0.454526] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.456817] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500794] (-) TimerEvent: {}
+[0.538712] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.551313] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.551770] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.555072] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.581919] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.582135] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600948] (-) TimerEvent: {}
+[0.701322] (-) TimerEvent: {}
+[0.714600] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.749850] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.753967] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.761318] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.801789] (-) TimerEvent: {}
+[0.846371] (lio_sam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.867467] (lio_sam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.901882] (-) TimerEvent: {}
+[0.932135] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.956427] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.001961] (-) TimerEvent: {}
+[1.017189] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.019082] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.020748] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100162] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.100490] (lio_sam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.102043] (-) TimerEvent: {}
+[1.168017] (lio_sam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.168239] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.202228] (-) TimerEvent: {}
+[1.238018] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.238447] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.302324] (-) TimerEvent: {}
+[1.304347] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.306735] (lio_sam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.402455] (-) TimerEvent: {}
+[1.431484] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.432806] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.502562] (-) TimerEvent: {}
+[1.546716] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.601542] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.602652] (-) TimerEvent: {}
+[1.656362] (lio_sam) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[1.702936] (-) TimerEvent: {}
+[1.743659] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.754071] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.763012] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.766122] (lio_sam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[1.803011] (-) TimerEvent: {}
+[1.903190] (-) TimerEvent: {}
+[2.003415] (-) TimerEvent: {}
+[2.069025] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.081944] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[2.091078] (lio_sam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[2.101419] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.103497] (-) TimerEvent: {}
+[2.125896] (lio_sam) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[2.161486] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.161741] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.203603] (-) TimerEvent: {}
+[2.204712] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[2.215809] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.226651] (lio_sam) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.263123] (lio_sam) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.303706] (-) TimerEvent: {}
+[2.310502] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.310632] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.310704] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.310768] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.310828] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.310894] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.310953] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.311011] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.311068] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.311308] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.311424] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.311494] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.311558] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.311620] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.311682] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.311742] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.311811] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.311873] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.312011] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.312071] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.312145] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.312309] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.312393] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.312493] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.312558] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.312621] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.312680] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.312739] (lio_sam) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.312797] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.312856] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.312913] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.312969] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.313024] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.313079] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.313134] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.313188] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.334430] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.348648] (lio_sam) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[2.389267] (lio_sam) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.403861] (-) TimerEvent: {}
+[2.437851] (lio_sam) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[2.438097] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.485063] (lio_sam) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[2.485368] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.485556] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.485667] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.495433] (lio_sam) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[2.495586] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.499732] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.503636] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.503952] (-) TimerEvent: {}
+[2.522850] (lio_sam) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[2.522955] (lio_sam) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.526941] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.536120] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.536959] (lio_sam) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.537183] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.537877] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.538053] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.538758] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.538899] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.539584] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.539774] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.540475] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.540660] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.541651] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.542440] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.543153] (lio_sam) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[2.544553] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.544767] (lio_sam) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[2.544886] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.545581] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.545813] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.546522] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.546767] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.547457] (lio_sam) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.547624] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.548322] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.548614] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.549303] (lio_sam) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.549571] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.550277] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.550497] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.551189] (lio_sam) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.551446] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.552132] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.552374] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.553104] (lio_sam) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.553342] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.554024] (lio_sam) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.554340] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.555120] (lio_sam) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.555313] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.556012] (lio_sam) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.556575] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.556801] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[2.556923] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.558205] (lio_sam) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[2.558339] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.559065] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.559303] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.560035] (lio_sam) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.560886] (lio_sam) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[2.595057] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic \n'}
+[2.596883] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include\n'}
+[2.603210] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3  \n'}
+[2.603312] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.604046] (-) TimerEvent: {}
+[2.704329] (-) TimerEvent: {}
+[2.804781] (-) TimerEvent: {}
+[2.873042] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.904947] (-) TimerEvent: {}
+[2.954927] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.955334] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[2.973764] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.005046] (-) TimerEvent: {}
+[3.105277] (-) TimerEvent: {}
+[3.152979] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.205378] (-) TimerEvent: {}
+[3.305658] (-) TimerEvent: {}
+[3.371956] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.405741] (-) TimerEvent: {}
+[3.480204] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.502774] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.504218] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.505834] (-) TimerEvent: {}
+[3.539411] (lio_sam) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.539576] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.539646] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.539711] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.559413] (lio_sam) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.605925] (-) TimerEvent: {}
+[3.679706] (lio_sam) StderrLine: {'line': b'CMake Error at CMakeLists.txt:43 (rosidl_get_typesupport_target):\n'}
+[3.679879] (lio_sam) StderrLine: {'line': b'  Unknown CMake command "rosidl_get_typesupport_target".\n'}
+[3.679949] (lio_sam) StderrLine: {'line': b'\n'}
+[3.680010] (lio_sam) StderrLine: {'line': b'\n'}
+[3.681985] (lio_sam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.682090] (lio_sam) StdoutLine: {'line': b'See also "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/CMakeOutput.log".\n'}
+[3.682160] (lio_sam) StdoutLine: {'line': b'See also "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/CMakeError.log".\n'}
+[3.691281] (lio_sam) CommandEnded: {'returncode': 1}
+[3.706156] (-) TimerEvent: {}
+[3.709694] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 1}
+[3.720150] (-) EventReactorShutdown: {}

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/include/lio_sam/utility.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/include/lio_sam/utility.hpp
 iostream
 -
 rclcpp/rclcpp.hpp
@@ -104,9 +104,9 @@ thread
 mutex
 -
 
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/imuPreintegration.cpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/imuPreintegration.cpp
 utility.hpp
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/utility.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/utility.hpp
 gtsam/geometry/Rot3.h
 -
 gtsam/geometry/Pose3.h

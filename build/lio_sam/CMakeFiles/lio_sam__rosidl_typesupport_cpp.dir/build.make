@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam
+CMAKE_SOURCE_DIR = /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam
@@ -239,6 +239,6 @@ CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/clean:
 
 CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp
 CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp
-	cd /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/depend
 

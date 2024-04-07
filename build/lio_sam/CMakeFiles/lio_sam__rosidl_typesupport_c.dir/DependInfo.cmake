@@ -23,7 +23,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
-  "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/include/lio_sam"
+  "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/include/lio_sam"
   "rosidl_generator_c"
   "rosidl_typesupport_c"
   "/opt/ros/foxy/include"

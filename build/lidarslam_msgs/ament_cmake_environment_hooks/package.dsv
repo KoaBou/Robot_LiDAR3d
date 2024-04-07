@@ -1,0 +1,4 @@
+source;share/lidarslam_msgs/local_setup.bash
+source;share/lidarslam_msgs/local_setup.dsv
+source;share/lidarslam_msgs/local_setup.sh
+source;share/lidarslam_msgs/local_setup.zsh

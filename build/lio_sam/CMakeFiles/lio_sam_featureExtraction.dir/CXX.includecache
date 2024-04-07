@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/include/lio_sam/utility.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/include/lio_sam/utility.hpp
 iostream
 -
 rclcpp/rclcpp.hpp
@@ -104,11 +104,11 @@ thread
 mutex
 -
 
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/featureExtraction.cpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/featureExtraction.cpp
 utility.hpp
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/utility.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/utility.hpp
 lio_sam/msg/cloud_info.hpp
-/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/lio_sam/msg/cloud_info.hpp
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/lio_sam/msg/cloud_info.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

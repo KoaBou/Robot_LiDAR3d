@@ -1,0 +1,25 @@
+[0.019s] Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/Thirdparty/ndt_omp_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/ndt_omp_ros2
+[0.029s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.181s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.187s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.455s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.455s]   Could not find a configuration file for package "PCL" that is compatible
+[0.455s]   with requested version "1.12".
+[0.455s] 
+[0.455s]   The following configuration files were considered but not accepted:
+[0.455s] 
+[0.455s]     /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake, version: 1.10.0
+[0.455s]     /lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake, version: 1.10.0
+[0.455s] 
+[0.456s] 
+[0.456s] 
+[0.456s] -- Configuring incomplete, errors occurred!
+[0.456s] See also "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2/CMakeFiles/CMakeOutput.log".
+[0.456s] See also "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2/CMakeFiles/CMakeError.log".
+[0.462s] Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/ndt_omp_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/li_slam_ros2/Thirdparty/ndt_omp_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/ndt_omp_ros2

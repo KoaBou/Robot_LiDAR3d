@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/src/featureExtraction.cpp" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o"
+  "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/src/featureExtraction.cpp" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/include/lio_sam"
+  "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/LIO-SAM/include/lio_sam"
   "rosidl_generator_cpp"
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"

@@ -1,0 +1,58 @@
+[0.021s] Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/pochita -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita
+[0.030s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.181s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.230s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.231s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.232s] -- Added test 'lint_cmake' to check CMake code style
+[0.232s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.233s] -- Added test 'xmllint' to check XML markup files
+[0.234s] -- Configuring done
+[0.235s] -- Generating done
+[0.236s] -- Build files have been written to: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
+[0.238s] Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/pochita -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita
+[0.240s] Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita -- -j12 -l12
+[0.269s] Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita -- -j12 -l12
+[0.290s] Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
+[0.296s] -- Install configuration: "Release"
+[0.296s] -- Execute custom install script
+[0.297s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/config.rviz
+[0.297s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/ekf.yaml
+[0.297s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/empty.yaml
+[0.297s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/joystick.yaml
+[0.297s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/mapper_params_online_async.yaml
+[0.297s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/camera.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/gazebo_control.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/imu.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/inertial_macros.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/lidar.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/materials.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/robot.urdf.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/robot_core.xacro
+[0.298s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/velodyne.xacro
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/full_launch.launch.py
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/joystick.launch.py
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/launch_sim.launch.py
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/rsp.launch.py
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/House/house.sdf
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/House/model.config
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/empty.world
+[0.299s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/house.sdf
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/obstacles.world
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/package_run_dependencies/pochita
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/parent_prefix_path/pochita
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/path.sh
+[0.300s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/path.dsv
+[0.301s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.bash
+[0.301s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.sh
+[0.301s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.zsh
+[0.301s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.dsv
+[0.301s] -- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.dsv
+[0.308s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/packages/pochita
+[0.309s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/cmake/pochitaConfig.cmake
+[0.309s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/cmake/pochitaConfig-version.cmake
+[0.309s] -- Up-to-date symlink: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.xml
+[0.310s] Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
