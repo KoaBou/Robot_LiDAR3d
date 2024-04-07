@@ -1,0 +1,17 @@
+[0.543s] Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester': PYTHONPATH=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/prefix_override:/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/build --no-deps symlink_data
+[0.718s] running develop
+[0.815s] running egg_info
+[0.815s] writing joy_tester.egg-info/PKG-INFO
+[0.815s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[0.815s] writing entry points to joy_tester.egg-info/entry_points.txt
+[0.815s] writing requirements to joy_tester.egg-info/requires.txt
+[0.815s] writing top-level names to joy_tester.egg-info/top_level.txt
+[0.840s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[0.841s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[0.864s] running build_ext
+[0.865s] Creating /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/python3.8/site-packages/joy-tester.egg-link (link to .)
+[0.865s] Installing test_joy script to /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/joy_tester
+[0.865s] 
+[0.865s] Installed /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester
+[0.866s] running symlink_data
+[0.887s] Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester' returned '0': PYTHONPATH=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/prefix_override:/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/build --no-deps symlink_data

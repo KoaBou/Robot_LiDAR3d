@@ -1,0 +1,1 @@
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam/msg/CloudInfo.msg

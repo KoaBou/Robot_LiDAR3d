@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/rosidl_generator_py/lio_sam/liblio_sam__python.so" "TARGETS" "lio_sam__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

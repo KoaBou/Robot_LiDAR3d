@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "lio_sam__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

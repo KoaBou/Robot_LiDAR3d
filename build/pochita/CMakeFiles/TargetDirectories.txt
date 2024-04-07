@@ -1,0 +1,9 @@
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/install/strip.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/install/local.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/install.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/list_install_components.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/rebuild_cache.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/edit_cache.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/test.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/pochita_uninstall.dir
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/CMakeFiles/uninstall.dir

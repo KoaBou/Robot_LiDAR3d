@@ -1,0 +1,4 @@
+source;share/pochita/local_setup.bash
+source;share/pochita/local_setup.dsv
+source;share/pochita/local_setup.sh
+source;share/pochita/local_setup.zsh

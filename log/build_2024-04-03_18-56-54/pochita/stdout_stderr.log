@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/config.rviz
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/ekf.yaml
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/empty.yaml
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/joystick.yaml
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/config/mapper_params_online_async.yaml
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/camera.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/gazebo_control.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/imu.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/inertial_macros.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/lidar.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/materials.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/robot.urdf.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/description/robot_core.xacro
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/full_launch.launch.py
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/joystick.launch.py
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/launch_sim.launch.py
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/launch/rsp.launch.py
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/empty.world
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/worlds/obstacles.world
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/package_run_dependencies/pochita
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/parent_prefix_path/pochita
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/ament_prefix_path.sh
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/path.sh
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/environment/path.dsv
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.bash
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.sh
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.zsh
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/local_setup.dsv
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.dsv
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/ament_index/resource_index/packages/pochita
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/cmake/pochitaConfig.cmake
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/cmake/pochitaConfig-version.cmake
+-- Symlinking: /home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.xml

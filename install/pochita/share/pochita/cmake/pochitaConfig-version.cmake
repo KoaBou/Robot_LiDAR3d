@@ -1,0 +1,1 @@
+/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita/ament_cmake_core/pochitaConfig-version.cmake

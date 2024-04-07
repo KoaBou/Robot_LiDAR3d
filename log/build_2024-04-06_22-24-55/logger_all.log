@@ -1,0 +1,272 @@
+[0.371s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.371s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7ef0e20160>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7ef0e20160>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7ef0cc24f0>)
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_sam) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lio_sam' with type 'ros.ament_cmake' and name 'lio_sam'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/pochita) by extension 'ros'
+[0.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pochita' with type 'ros.ament_cmake' and name 'pochita'
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/foxy
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester', 'merge_install': False, 'path': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/joy_tester', 'symlink_install': True, 'test_result_base': None}
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam', 'merge_install': False, 'path': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam', 'symlink_install': True, 'test_result_base': None}
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'pochita' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'pochita' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita', 'merge_install': False, 'path': '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/pochita', 'symlink_install': True, 'test_result_base': None}
+[0.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.620s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/joy_tester' with build type 'ament_python'
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[0.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[0.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam' with build type 'ament_cmake'
+[0.630s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/lio_sam'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/pochita' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/pochita'
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/src/joy_tester'
+[0.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam -- -j12 -l12
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita -- -j12 -l12
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita -- -j12 -l12
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
+[0.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pochita)
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/pochita
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita' for CMake module files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('pochita', 'cmake_prefix_path')
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/hook/cmake_prefix_path.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/hook/cmake_prefix_path.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/lib/pkgconfig/pochita.pc'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/lib/python3.8/site-packages'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/bin'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.dsv'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.sh'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.bash'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.zsh'
+[0.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/colcon-core/packages/pochita)
+[0.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pochita)
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita' for CMake config files
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('pochita', 'cmake_prefix_path')
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/hook/cmake_prefix_path.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/hook/cmake_prefix_path.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/hook/cmake_prefix_path.sh'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/bin'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/lib/pkgconfig/pochita.pc'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/lib/python3.8/site-packages'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/bin'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.dsv'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.sh'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.bash'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/pochita/package.zsh'
+[0.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/pochita/share/colcon-core/packages/pochita)
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam -- -j12 -l12
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam
+[1.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam' for CMake module files
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/lio_sam
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam' for CMake config files
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/lib'
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/bin'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/lib/python3.8/site-packages'
+[1.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'pythonpath')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/pythonpath.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/pythonpath.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/pythonpath.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/bin'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.bash'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.zsh'
+[1.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/colcon-core/packages/lio_sam)
+[1.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam' for CMake module files
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam' for CMake config files
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/lib'
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/lib/python3.8/site-packages'
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'pythonpath')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/pythonpath.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/pythonpath.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/hook/pythonpath.sh'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/bin'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.bash'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/lio_sam/package.zsh'
+[1.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/lio_sam/share/colcon-core/packages/lio_sam)
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester': PYTHONPATH=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/prefix_override:/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/build --no-deps symlink_data
+[1.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath_develop')
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/share/joy_tester/hook/pythonpath_develop.ps1'
+[1.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester' returned '0': PYTHONPATH=/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/prefix_override:/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/build --no-deps symlink_data
+[1.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/share/joy_tester/hook/pythonpath_develop.dsv'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/build/joy_tester/share/joy_tester/hook/pythonpath_develop.sh'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester' for CMake module files
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester' for CMake config files
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/bin'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/lib/python3.8/site-packages'
+[1.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/bin'
+[1.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/package.ps1'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/package.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/package.sh'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/package.bash'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/joy_tester/package.zsh'
+[1.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/joy_tester/share/colcon-core/packages/joy_tester)
+[1.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.635s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.643s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.673s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/local_setup.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/_local_setup_util_ps1.py'
+[1.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/setup.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/local_setup.sh'
+[1.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/_local_setup_util_sh.py'
+[1.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/setup.sh'
+[1.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/local_setup.bash'
+[1.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/setup.bash'
+[1.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/local_setup.zsh'
+[1.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngin/LAB/Resfes24/Robot_LiDAR3d/install/setup.zsh'
